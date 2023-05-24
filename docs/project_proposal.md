@@ -9,4 +9,4 @@ Spectific and measurable
 Assume it is this page
 
 
-[[Return to Home Page]](pedrocu.github.io/README.MD)
+[[Return to Home Page]](https://pedrocu.github.io)
