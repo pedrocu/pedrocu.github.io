@@ -38,6 +38,7 @@ Python, Windows, PyQT (GUI), harpy plugin for accessing Fortran datafiles via Nu
 ## Project Portfolio Link
 
 ## Task List and Schedule
+
 |Week           | Primary Task   |      Secondary Goal     |
 |---------------|----------------|-------------------------|
 |Week-1      |Draft proposal\web page| Read PyQt software manual |
