@@ -12,7 +12,7 @@ I have wanted to do these things since first entering CSPB several years ago and
 I'm an economist with a great deal of background in international economic analysis.  I regularly conduct analysis of global economic policies (such as trade agreements, climate change, poverty, and food security).   You can see some of my research at: https://impactecon.com/resources/working-papers/.
 ## Idea
 I want to develop an open-source application (GUI) to automate and facilitate routine tasks in the analysis of global economic data.  There are several data tasks which must be undertaken before a global economic study can be undertaken. Many of the tasks are routine and are currently done via "batch" files which run data programs and can take a long time to run (asynchronous).  The process is subject to errors, due to the complexities of running command line programs which processes user input in the form of text files.  I would like to create a basic Python application (PyQt) which incorporates these processes into a GUI. 
-# Goals
+## Goals
 * Create a GUI interface which gathers input from a user (input files, output location, desired file structure)
 * The input from the user is checked, stored (MySQL) and passed to external program (Fortran) for running (asynchronous)
 * Progress bar for programs running (they can take a few minutes or more to run)
@@ -21,10 +21,10 @@ I want to develop an open-source application (GUI) to automate and facilitate ro
 * ADVANCED GOAL (if time allows)
     * Develop a multithreaded run of the external program runs (synchronous - parallel)
 
-# Platform
+## Platform
 Python, Windows, PyQT (GUI), harpy plugin for accessing Fortran datafiles via NumPy, GitHub, MySQL database.
 
-# Risks
+## Risks
 * PyQT, from what I have read, is one of the most widely used GUI programs in Python and in C++.  PyQT is essentially a C++ program run from Python, as such, it is an abstraction, which makes it a bit more complicated, especially the documentation. 
     * Mitigation - While PyQT documentation can be complex, several books have been published recently (showing the popularity of this framework) with directions and code recipes to assist with fast development.  Examples are key to rapid development in this context, and I expect those resources will be valuable.
 * PyQT, from what I have read, is based on a handful of classes, with inheritance and polymorphisms used extensively to create subclasses etc.  This is a great way to learn OOP in an application context, but it can get very complicated, since one has to understand the root classes objects derive from to fully understand them and follow the documentation.
@@ -34,12 +34,10 @@ Python, Windows, PyQT (GUI), harpy plugin for accessing Fortran datafiles via Nu
 * Multi-threaded applications can be much tricker to run than might first appear.  If intermediate files are not ready when called, the program will fail. 
     *  Mitigation - This is an ADVANCED GOAL.  PyQT provides a threading object and queue, but with these applications, I suspect the order of program runs is still a problem to be solved by the programmer, so I will first program an asynchronous application in the AGILE spirt of getting it working first.
 
+## Project Assessments
+## Project Portfolio Link
 
-
-# Project Assessments
-# Project Portfolio Link
-
-# Task List and Schedule
+## Task List and Schedule
 |Week           | Primary Task   |      Secondary Goal     |
 |---------------|----------------|-------------------------|
 |Week-1      |Draft proposal\web page| Read PyQt software manual |
@@ -54,7 +52,6 @@ Python, Windows, PyQT (GUI), harpy plugin for accessing Fortran datafiles via Nu
 |Week-10     | Run tasks (python code to run .exe Fortran files, with input and output locations) | First run will NOT be multithreaded, but asynchronous |
 |Week-11     | Documentation (Sphinx)  | Add comments for Sphinx to build documentation |
 |Week-12     | Create video on the application and put up on GitHub  | All should be running, albeit, without bells and whistles |
-
 
 
 [[Return to Home Page]](https://pedrocu.github.io)
