@@ -1,7 +1,6 @@
-# pedrocu.github.io
-### Yea, this is me!
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
+# Peter Minor CSPB 3112
+
+## [Project Proposal](docs/project_proposal.md)
+
+## [Weekly Update ](docs/Weekly_Update.md)
+
