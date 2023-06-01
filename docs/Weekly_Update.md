@@ -4,6 +4,7 @@
 2. What do you plan to do this week?
 3. Are there any impedments in your way?
 4. What were the processes you used last week, how can you make the process work better?
+
 ## Week 1
 
 ## Week 2
@@ -22,6 +23,7 @@
     - Summer!   Really, summer requires extra attention to putting in the time required.  Keeping a good tempo will be important
 4. What were the processes you used last week, how can you make the process work better? 
     -   I reviewed the requirements and made a list of tasks, which was a bit iterative.  One of the mistakes I always make in CSPB courses is not looking ahead to next week’s assignments, before making up a workplan.  Often the following week's task or description provides important information relevant to the current week's work.  Be tactical and strategic, look ahead.
+
 ## Week 3
 
 ## Week 4
