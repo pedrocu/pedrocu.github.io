@@ -1,6 +1,6 @@
 
 # Open Source PyQT GUI Program to Automate Common Analysis Tasks
-### Peter Minor CSPB 3112 
+
 ## Vision Statement
 * I will develop a simple desktop application in Python to gain experience creating a GUI to interact with users to complete tasks that otherwise would have to be run on command lines.  The GUI will streamline the running of Fortran programs to perform data jobs and analytical tasks.  
 * It is my expectation that GUI programming will provide hands on experience with object-oriented programming (OOP) concepts such as inheritance, polymorphisms and Python development tools such as built in object interables. 
