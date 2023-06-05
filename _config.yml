@@ -7,5 +7,5 @@ markdown: kramdown
 kramdown:
   input: GFM
   
-title: CSPB-3112 Peter Minor Portfolio
+title: Peter Minor Portfolio
 description: This site documents progress on my CSPB 3112 Project
