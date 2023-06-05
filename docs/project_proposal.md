@@ -1,17 +1,20 @@
 
-# Open Source PyQT GUI Program to Automate Common Analysis Tasks
+# PyQT GUI Program to Automate Common Analysis Tasks - Open Source
 
 ## Vision Statement
 * I will develop a simple desktop application in Python to gain experience creating a GUI to interact with users to complete tasks that otherwise would have to be run on command lines.  The GUI will streamline the running of Fortran programs to perform data jobs and analytical tasks.  
 * It is my expectation that GUI programming will provide hands on experience with object-oriented programming (OOP) concepts such as inheritance, polymorphisms and Python development tools such as built in object interables. 
 * The project will be published as open-source software, allowing employers to evaluate my programming skills in an application, as well as open source publishing.
+
 ## Motivation
 I have wanted to do these things since first entering CSPB several years ago and now, alas, I have the chance to do it. I have always thought skills and experience developing a user interface (web or GUI) were "basic" to a computer science degree and to the computer science profession.  User interfaces can be helpful in many settings. I hope the open-source code will be helpful to the general research and code community (economics) and help prospective employers assess my skills and abilities outside of a resume and\or degrees.
 
 ## Background
 I'm an economist with a great deal of background in international economic analysis.  I regularly conduct analysis of global economic policies (such as trade agreements, climate change, poverty, and food security).   You can see some of my research at: https://impactecon.com/resources/working-papers/.
+
 ## Idea
 I want to develop an open-source application (GUI) to automate and facilitate routine tasks in the analysis of global economic data.  There are several data tasks which must be undertaken before a global economic study can be undertaken. Many of the tasks are routine and are currently done via "batch" files which run data programs and can take a long time to run (asynchronous).  The process is subject to errors, due to the complexities of running command line programs which processes user input in the form of text files.  I would like to create a basic Python application (PyQt) which incorporates these processes into a GUI. 
+
 ## Goals
 * Create a GUI interface which gathers input from a user (input files, output location, desired file structure)
 * The input from the user is checked, stored (MySQL) and passed to external program (Fortran) for running (asynchronous)
@@ -39,8 +42,8 @@ Python, Windows, PyQT (GUI), harpy plugin for accessing Fortran datafiles via Nu
 
 ## Task List and Schedule
 
-|Week           | Primary Task   |      Secondary Goal     |
-|---------------|----------------|-------------------------|
+|Week&emsp;&emsp;           | Primary Task   |      Secondary Goal     |
+|---------------|:----------------|:-------------------------|
 |Week-1      |Draft proposal\web page| Read PyQt software manual |
 |Week-2      |Final proposal         | Read PyQT book on applications |
 |Week-3      |Plan out application, menus, screens and buttons, files required         | Read OOP in Lutz |
