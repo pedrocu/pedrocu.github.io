@@ -1,4 +1,4 @@
-# Weekly Updates for Peter Minor
+# Weekly Updates
 
 1. What did you do last week?
 2. What do you plan to do this week?
