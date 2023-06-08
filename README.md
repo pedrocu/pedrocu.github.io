@@ -3,3 +3,5 @@
 
 ## [Weekly Update ](docs/Weekly_Update.md)
 
+## [Progress Images](docs/progress_pics.md)
+
