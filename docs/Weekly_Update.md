@@ -25,6 +25,25 @@
     -   I reviewed the requirements and made a list of tasks, which was a bit iterative.  One of the mistakes I always make in CSPB courses is not looking ahead to next week’s assignments, before making up a workplan.  Often the following week's task or description provides important information relevant to the current week's work.  Be tactical and strategic, look ahead.
 
 ## Week 3
+1. What did you do last week?
+    - Finalized proposal
+    - Developed work schedule
+    - Downloaded and read PyQt books (4 chapters)
+    - Downloaded and started to read OOP documentation
+    - Wrote first PyQt code to create dialogue box
+    - Fixed up git website (added Jekyll config file)
+2. What do you plan to do this week?
+    - Plan application layout
+    - Consider open-source issues (what will make my app attractive for others to use\contribute)
+    - Develop main screen for application
+    - Keep reading PytQt documentation
+    - Look at linked-in
+3. Are there any impediments in your way?
+    - Main issue is time.  Being Summer and my son is in day camp, I have short days to work with.  
+4. What were the processes you used last week; how can you make the process work better? 
+    -   Setting a work agenda is key, as it allows me to just sit down and start working, not wonder first about what I must do.  
+    -   Make setting weekly work agenda on Monday priority (this is rather detailed list)
+    -   Check the agenda again on Wednesday (in most cases I can add to it)
 
 ## Week 4
 
