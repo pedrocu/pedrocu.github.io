@@ -6,8 +6,10 @@
 4. What were the processes you used last week, how can you make the process work better?
 
 ## Week 1
+No reporting required
 
 ## Week 2
+
 1. What did you do last week?
     - Read all the course descriptions and requirements
     - Coded and posted web pages on github
@@ -25,6 +27,7 @@
     -   I reviewed the requirements and made a list of tasks, which was a bit iterative.  One of the mistakes I always make in CSPB courses is not looking ahead to next week’s assignments, before making up a workplan.  Often the following week's task or description provides important information relevant to the current week's work.  Be tactical and strategic, look ahead.
 
 ## Week 3
+
 1. What did you do last week?
     - Finalized proposal
     - Developed work schedule
@@ -47,4 +50,21 @@
 
 ## Week 4
 
+1. What did you do last week?
+    - Read PyQT (3 chapters)
+    - Started repo for my program files
+    - Started reading OOP
+    - Findshed app layout (this will be modified as I go along, but it is a broad brush to keep focused)
+    - Developed main screen for application
+    - Continue to improve web github site 
+2. What do you plan to do this week?
+    - 
+    - Work on linked-in
+3. Are there any impediments in your way?
+    - Main issue is time.  Being Summer and my son is in day camp, I have short days to work with.  
+4. What were the processes you used last week; how can you make the process work better? 
+    -   Setting a work agenda is key, as it allows me to just sit down and start working, not wonder first about what I must do.  
+    -   Make setting weekly work agenda on Monday priority (this is rather detailed list)
+    -   Check the agenda again on Wednesday (in most cases I can add to it)
+   
 ## Week 5
