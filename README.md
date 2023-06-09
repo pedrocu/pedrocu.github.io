@@ -5,3 +5,5 @@
 
 ## [Progress Images](docs/progress_pics.md)
 
+## [Project Repo](https://github.com/pedrocu/PyQtGTAPAgg)
+
