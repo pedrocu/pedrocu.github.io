@@ -58,10 +58,12 @@ No reporting required
     - Developed main screen for application
     - Continue to improve web github site 
 2. What do you plan to do this week?
-    - 
+    - Finish first tab to read in database location and specifications
+    - Develop methods for saving settings from one session to the other (use PyQt Settings class)
+    - Start second tab for sectors (work on PyQt data API)
     - Work on linked-in
 3. Are there any impediments in your way?
-    - Main issue is time.  Being Summer and my son is in day camp, I have short days to work with.  
+    - Reading and working on code is a great combo, theory and applications work well for me, but application often requires more then just theory, it require experience. 
 4. What were the processes you used last week; how can you make the process work better? 
     -   Setting a work agenda is key, as it allows me to just sit down and start working, not wonder first about what I must do.  
     -   Make setting weekly work agenda on Monday priority (this is rather detailed list)
