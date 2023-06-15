@@ -56,7 +56,7 @@ No reporting required
     - Started reading OOP
     - Findshed app layout (this will be modified as I go along, but it is a broad brush to keep focused)
     - Developed main screen for application
-    - Continue to improve web github site 
+    - Continue to improve github web site 
 2. What do you plan to do this week?
     - Finish first tab to read in database location and specifications
     - Develop methods for saving settings from one session to the other (use PyQt Settings class)
@@ -66,7 +66,6 @@ No reporting required
     - Reading and working on code is a great combo, theory and applications work well for me, but application often requires more then just theory, it require experience. 
 4. What were the processes you used last week; how can you make the process work better? 
     -   Setting a work agenda is key, as it allows me to just sit down and start working, not wonder first about what I must do.  
-    -   Make setting weekly work agenda on Monday priority (this is rather detailed list)
-    -   Check the agenda again on Wednesday (in most cases I can add to it)
+    -   Get more reading in at odd hours (down time) by having it on mulitple computers synched up
    
 ## Week 5
