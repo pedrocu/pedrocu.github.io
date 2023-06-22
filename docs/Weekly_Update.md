@@ -54,18 +54,37 @@ No reporting required
     - Read PyQT (3 chapters)
     - Started repo for my program files
     - Started reading OOP
-    - Findshed app layout (this will be modified as I go along, but it is a broad brush to keep focused)
+    - Finshed app layout (this will be modified as I go along, but it is a broad brush to keep focused)
     - Developed main screen for application
     - Continue to improve github web site 
 2. What do you plan to do this week?
     - Finish first tab to read in database location and specifications
     - Develop methods for saving settings from one session to the other (use PyQt Settings class)
-    - Start second tab for sectors (work on PyQt data API)
+    - Start second tab for sectors (work on PyQt data API)    
     - Work on linked-in
 3. Are there any impediments in your way?
-    - Reading and working on code is a great combo, theory and applications work well for me, but application often requires more then just theory, it require experience. 
+    - Reading and working on code is a great combo, theory and applications work well for me, but application often requires more th
+    - en just theory, it require experience. 
 4. What were the processes you used last week; how can you make the process work better? 
     -   Setting a work agenda is key, as it allows me to just sit down and start working, not wonder first about what I must do.  
     -   Get more reading in at odd hours (down time) by having it on mulitple computers synched up
    
 ## Week 5
+
+1. What did you do last week?
+    - First tab done, reads in data location and verifies if database is valid, returns an error box if not valid
+    - Integrated method for saving users state between session using PyQt Setting Class
+    - Started sectors tab (tab 2) by creating layout (vlayout and hlayout, with buttons)
+    - Read up on best practices to create a linked in site, talked to friends who have done it about pros and cons
+3. What do you plan to do this week?
+    - Continue to develop second tab for sectors (this tab will be used as a template for other tabs, so want to get it right)
+    - Develop code to make tasks for user more efficient (painting data, quick selection)
+    - Review options for saving application data (for datafiles in contrast to user settings)
+        - SQLite
+        - Json
+    - Continue to work on linked-in
+4. Are there any impediments in your way?
+    - None 
+5. What were the processes you used last week; how can you make the process work better?
+    - Working with Qt documentation helps a lot, essential.  Qt documentation is written in C++, not python.  Getting to know the structure of objects within Qt and inheritances, along with enums is essential.  It takes time to look up all the options and configurations with the enums.
+    - Solution: study the overall object structure and inheritance hierarchy within Qt so I can access required information more efficiently.
