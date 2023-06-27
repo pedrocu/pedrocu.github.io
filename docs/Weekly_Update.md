@@ -95,12 +95,15 @@ No reporting required
     - Decided to use Json, since it can store lists and dictionaries in an easy to access structure
     - Many of my tasks will be manipulating lists, so putting and extra level of abstraction in the form of SQL added unneeded complexity 
     - Worked on creating an initial data structure in the form of a Json file with data (dictionaries and lists (these default templates required a lot of custom data to start off the program
-3. What do you plan to do this week?
+      
+2. What do you plan to do this week?
     - Now that I have decided on a data structure to persist data, and the default file is setup, I need to integrate the Json data into the interface (now, I have some lists shoehorned into the model in place of a data structure.
-- Integrating the data model will require careful placement within the interface to leverage object inheritance and reduce duplication and unneeded read and writes.
+    - Integrating the data model will require careful placement within the interface to leverage object inheritance and reduce duplication and unneeded read and writes.
     - Now that I have decided on a data structure to persist data, and the default file is setup, I need to integrate the Json data into the interface (now, I have some lists shoehorned into the model in place of a data structure).
-4. Are there any impediments in your way?
-    -Yes.  Experience with OOP, inheritance, signals, and slots.  It is one thing to study this material and understand how it is implemented, it is another thing to implement a structure which serves the purpose well.  I must dive in a try my best idea and see how it plays out (learn the pros and cons of my approach)
+      
+3. Are there any impediments in your way?
+      - Yes.  Experience with OOP, inheritance, signals, and slots.  It is one thing to study this material and understand how it is implemented, it is another thing to implement a structure which serves the purpose well.  I must dive in a try my best idea and see how it plays out (learn the pros and cons of my approach)
+        
 5. What were the processes you used last week; how can you make the process work better?
-   - The process has changed entirely.  I have gone from studying PyQt documentation to planning strategy around various programming structures to achieve my goals.  This is planning and implementation, so the processes are different.  I have written, consider, look at existing code and adapt as needed, while anticipating potential problems
+   - The process has changed entirely.  I have gone from studying PyQt documentation to planning strategy around various programming structures to achieve my goals.  This is planning and implementation, so the processes are different.  I consider, look at existing code, and adapt as needed, while anticipating potential problems
 
