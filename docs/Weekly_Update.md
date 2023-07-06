@@ -94,16 +94,30 @@ No reporting required
     - Studied data structure for data persistence between sessions (MySQLite or Json data formats)
     - Decided to use Json, since it can store lists and dictionaries in an easy to access structure
     - Many of my tasks will be manipulating lists, so putting and extra level of abstraction in the form of SQL added unneeded complexity 
-    - Worked on creating an initial data structure in the form of a Json file with data (dictionaries and lists (these default templates required a lot of custom data to start off the program
-      
+    - Worked on creating an initial data structure in the form of a Json file with data (dictionaries and lists (these default templates required a lot of custom data to start off the program      
 2. What do you plan to do this week?
     - Now that I have decided on a data structure to persist data, and the default file is setup, I need to integrate the Json data into the interface (now, I have some lists shoehorned into the model in place of a data structure.
-    - Integrating the data model will require careful placement within the interface to leverage object inheritance and reduce duplication and unneeded read and writes.
-    - Now that I have decided on a data structure to persist data, and the default file is setup, I need to integrate the Json data into the interface (now, I have some lists shoehorned into the model in place of a data structure).
-      
+    - Integrating the data model will require careful placement within the interface to leverage object inheritance and reduce duplication and unneeded read and writes.  
 3. Are there any impediments in your way?
-      - Yes.  Experience with OOP, inheritance, signals, and slots.  It is one thing to study this material and understand how it is implemented, it is another thing to implement a structure which serves the purpose well.  I must dive in a try my best idea and see how it plays out (learn the pros and cons of my approach)
-        
+      - Yes.  Experience with OOP, inheritance, signals, and slots.  It is one thing to study this material and understand how it is implemented, it is another thing to implement a structure which serves the purpose well.  I must dive in a try my best idea and see how it plays out (learn the pros and cons of my approach).
 5. What were the processes you used last week; how can you make the process work better?
-   - The process has changed entirely.  I have gone from studying PyQt documentation to planning strategy around various programming structures to achieve my goals.  This is planning and implementation, so the processes are different.  I consider, look at existing code, and adapt as needed, while anticipating potential problems
+   - The process has changed entirely.  I have gone from studying PyQt documentation to planning strategy around various programming structures to achieve my goals.  This is planning and implementation, so the processes are different.  I consider, look at existing code, and adapt as needed, while anticipating potential problems.
+
+## Week 7
+
+1. What did you do last week?
+    - Coded a class object to hold data and processes it.
+    - Used PyQt Signals and Slots to create connections to events which change the data in the data object (changing data directory or changing aggregation file).
+    - Read in JSON file and sets file, merge them by codes using a dictionary and list structure which is efficient (essentially a hash index with a merge).
+    - Passed data to the tab "by reference" which means when the data in the application tables changes, the data in the data object will also be changed, reducing unneeded code and improving efficiency.
+    - Tested code on sectors tab.
+2. What do you plan to do this week?
+    - Cleanup class object code, with properties and setters and getters as required.
+    - Develop an interface and code to "save" a new data object and retrieve it.
+3. Are there any impediments in your way?
+      - No.  
+5. What were the processes you used last week; how can you make the process work better?
+   - I studied the code a great deal to figure out where to put the data object and how best to apply it before I started coding.
+   - In the future I will create a sandbox to test ideas sooner, with less concern on getting it correct the first time, since I found I spent several hours simply studying the code and considering options.  While that worked, it seemed a bit time consuming.
+
 
