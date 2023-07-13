@@ -140,7 +140,7 @@ No reporting required
    - In many ways, I have kept the GUI simple to this point, working out a lot of the underlying methods, then I will build out more efficiently
    - The processes work best, and can work better, but strategically testing ideas and methods on small chunks.  DO NOT ASSUME the interaction of the different pieces of code will be straight forward.
 
-#Mid-semester Project Update
+# Mid-semester Project Update
 
 1.  Goals
    * Create GUI interface which gathers input from users
