@@ -120,4 +120,44 @@ No reporting required
    - I studied the code a great deal to figure out where to put the data object and how best to apply it before I started coding.
    - In the future I will create a sandbox to test ideas sooner, with less concern on getting it correct the first time, since I found I spent several hours simply studying the code and considering options.  While that worked, it seemed a bit time consuming.
 
+## Week 8
+
+1. What did you do last week?
+   - Cleaned up the dataStore class object - this required inserting more code to account for various user interactions
+   - Signals and slots were added so that the dataStore object behaved as expected (previous version required a restart of app when database was changed)
+   - Added a lot of setters and getters - read up on various methods of doing setters and getters in Python and all their pros and cons (hint, using a lot of properties and setters is not always the best if you intend on reusing a class with inheritance.
+   - Most of all I tested methods for passing data to the "view" tabs and updating the user screens.  This project is a mix of data science and user interface (software engineering).  These methods will be used to support the next round of development (saving and retrieving user data schemas).
+   
+3. What do you plan to do this week?
+   -Develop the saving and retrievalof user data schemas.  Had hoped to have done that last week, but I had to explore how best to do this first.  Now I know the method I plan to use, 
+4. Are there any impediments in your way?
+   -Main challenge has been integrating the GUI code with the data objects I have created to save and retrieve data.  I have good ideas and have made good progress on both the GUI code and the database object code.  However, integrating the two has been an unexpected challenge, requiring a much deeper understanding and planning with both to make them interact consistently for the user
+     
+6. What were the processes you used last week; how can you make the process work better?
+   - before developing a bunch of setters and getters, I read up on the web about these in Python.  I could have done it without reading.  However, understanding how they work under the hood in Python was helpful, if only for future development.  As it turns out, setters and getters are rather static in Python as they relate to OOP inheritance - one can't morph the setters and getters as we do with other code using super().  That is an important restriction.
+   - When I ran into the "big" challenge of integrating my data object with the GUI objects, I decided to perform some simple experiments with my code, before diving in with writing a lot of code.  I branched the code to create a sandbox.  I then picked some simple code areas and tried to pass the data along.  I had planned to use Python references to avoid duplication of data (passing by reference).  I had problems.  I then used the Python id() functions to see why the data were not being passed by reference.  Turns out, they were, as I had planned, however, this method did not trigger the "view" screens to update! Passing the data by value forced the view objects to update.  That was the desired outcome.  I could have come up with other methods to force an update of the view screen, but there are tradeoffs, not the least, the code would get very complicated.
+   - This method of taking a small problem and working out the kinks was far superior then starting out with the big project.
+   - In many ways, I have kept the GUI simple to this point, working out a lot of the underlying methods, then I will build out more efficiently
+   - The processes work best, and can work better, but strategically testing ideas and methods on small chunks.  DO NOT ASSUME the interaction of the different pieces of code will be straight forward.
+
+#Mid-semester Project Update
+
+1.  Goals
+   * Create GUI interface which gathers input from users
+   * Input from users is checked, stored in MySql and passed to external programs (Fortran)
+   * Progress bar for running programs (they can take a while to run)
+   * Information on status (completion) of each task)
+   * Learning OOP
+   * Advanced Goal - Multithread 
+3.  Assessment
+   * Create GUI - Achieved this goal, making the GUI was mostly about reading documentation and books and trying it out.  Working with PyQt documentation was initially intimidating, since it is all organized by object trees and written for C++.  However, after a few weeks of referencing the documentation, I believe I have become proficient at finding what I need and implementing it.
+   * Input from user and stored in MySQL - This was really two tasks.  Input from user done, with several customized features to facilitate data entry (painting value, spreadsheet like copy and paste via a customized delegate).  
+Dropped the MySQL idea. Upon considering the tasks of the GUI, I decided that using native Python data structures (lists and dictionaries) would be better suited to the application.  The data were better represented in an unstructured database.  Data are presisted in JSON format.
+   * Progress bar for running programs-(TBD, have read up on the tools)
+   * Learning OOP – I have read Part IV in Mark Lutz “Learning Python” on OOP.  OOP knowledge is essential for working with PyQt, which is based on object hierarchies.  Reading with an application in OOP has worked well for learning.
+   * Advanced goal – I have read the chapters in PyQt on multithreaded applications.
+4.  Updated goals
+   * Though this is midway through, I don’t feel ready to update goals.  I’m sure I don’t want to add any new goals to the list I have.  Looking at the progress I have made, in terms of the application interface, the interface is only about 25% done.  That is less than 50%.  However, my experience with this project is that developing that developing an application is uneven in its progress.  Sometimes it moves fast, sometimes one must invest time to develop tools to be efficient.  I have built a lot of tools for my application.  I have nearly completed the most difficult parts of the application and created several objects which will be used with small modifications (inheritance and polymorphism) to complete the next 50% of the project. The next week of work will determine the status of the project and then I will adjust goals. 
+
+
 
