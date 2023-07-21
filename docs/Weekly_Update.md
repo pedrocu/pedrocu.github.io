@@ -165,5 +165,35 @@ As per the class assignment, I have investigated professional development tools 
 
 Finally, I signed up for, and watched, a video in the linked in learning area.  I watched a video on time management, as suggested.  The video reminded me of many tools I do use (I'm a focused person).  I want to watch some of the other videos on programming, will make the 30 minutes a week available as the time management video suggested.  Overall, a great review of lifelong learning tools.  It’s a reminder that at all stages of our work life and careers, we should make these regular habits since they enhance out self-worth in our work life.
 
+## 9 Week 
+
+1. What did you do last week?
+   - Continued to revise the data schema and data object for collecting, storing and saving user data in a consistent fashion
+   - Added several signals and slots to coordinate transfer of data between user screens and data objects.
+   - Completed the Open and Save features in the interface (as expected, these were relatively easy, given a consistent and robust data and interface)
+   - Added quit menu button to leave the app
+   - Add an about screen to list credits and contact information
+   - Watched Linked in Learning Video on OOP in Python
+     
+3. What do you plan to do this week?
+   - Develop new tab for regions (this should go fast and without trouble, since it will use all the objects already created and tested
+   - Develop new tab for endowments (again, this should be straight forward extension of what has been done, though I will need to modify the tab a bit)
+   - Start work on output programs (these should be familiar, since I already know how to write python scripts for file and program execution)
+   
+  
+5. Are there any impediments in your way?
+   - I feel comfortable with the state of the objects I have built, and hope things will move more quickly now that a solid foundation is set up.
+     
+6. What were the processes you used last week; how can you make the process work better?
+   - As with the previous week, I reviewed materials on OOP to see if anything there could help (some did, but mostly in organization)
+   - I branched a set of code to "play" and experiment with things, without fear of destroying previous work, to test ideas.
+   - I could make these processes better by allowing more time to play and fully explore the ideas.  Sometimes I have the correct idea, but there is something in the implementation that keeps it from working the way I expect (i.e., passing values by assignment in Python).  I could, therefore, end up missing on a good idea and knowledge development for the wrong reasons.  Planning a solid exploration is better than quick code tests.
+  
+7. Updated work plan to end of semester
+	- Week 10 - Continue to develop tabs
+	- Week 11 - Finish output tab
+	- week 12 - Clean up code
+	- Week 13 – Document on GitHub, add video (?)
+
 
 
