@@ -196,9 +196,9 @@ Finally, I signed up for, and watched, a video in the linked in learning area.  
 ## 10 Week 
 
 1. What did you do last week?
-   - Built regions tab for user input - based the tabe off the sector tab
+   - Built regions tab for user input - based the tab off the sector tab
    - Built the endowments tab for user input - required a sub-class of the regions tab with a few modifications for the unique input of this data
-   - Started work on output tab, which requires a number of operating system routines I have used seperatly.  However, they will have to be modified to work within the GUI structure.
+   - Started work on output tab, which requires a number of operating system routines I have used separately.  However, they will have to be modified to work within the GUI structure.
      
 3. What do you plan to do this week?
     - Finish the output tab and its routines
@@ -210,6 +210,7 @@ Finally, I signed up for, and watched, a video in the linked in learning area.  
      
 6. What were the processes you used last week; how can you make the process work better?
    - This week was all about reusing the previous materials (objects) I created earlier, so the effort of getting those in a stable working environment has been paying off
-   - I took some risks investing in the basic tab and data objects and getting them general enough that they could be reused with small modifications and all the data could be quickly and efficently saved.  That has paid off well.
-   - I am now looking at the objects and their use and I can see some redundancy in how the code is now fleshing out.   I have convinced myself, some redundancy is OK and can be cleaned up latter with some refactoring of the code.  There is a time to build and invest and then their is a time for things to develop in the context of use and learning. I'm happy where the code is at, more improvements will always be possible. 
+   - I took some risks investing in the basic tab and data objects and getting them general enough that they could be reused with small modifications and all the data could be quickly and efficiently saved.  That has paid off well.
+   - I am now looking at the objects and their use and I can see some redundancy in how the code is now fleshing out.   I have convinced myself; some redundancy is OK and can be cleaned up later with some refactoring of the code.  There is a time to build and invest and then there is a time for things to develop in the context of use and learning. I'm happy where the code is at, more improvements will always be possible.
+
 
