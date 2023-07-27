@@ -179,7 +179,6 @@ Finally, I signed up for, and watched, a video in the linked in learning area.  
    - Develop new tab for regions (this should go fast and without trouble, since it will use all the objects already created and tested
    - Develop new tab for endowments (again, this should be straight forward extension of what has been done, though I will need to modify the tab a bit)
    - Start work on output programs (these should be familiar, since I already know how to write python scripts for file and program execution)
-   
   
 5. Are there any impediments in your way?
    - I feel comfortable with the state of the objects I have built, and hope things will move more quickly now that a solid foundation is set up.
@@ -194,6 +193,23 @@ Finally, I signed up for, and watched, a video in the linked in learning area.  
 	- Week 11 - Finish output tab
 	- week 12 - Clean up code
 	- Week 13 – Document on GitHub, add video (?)
+## 10 Week 
 
-
+1. What did you do last week?
+   - Built regions tab for user input - based the tabe off the sector tab
+   - Built the endowments tab for user input - required a sub-class of the regions tab with a few modifications for the unique input of this data
+   - Started work on output tab, which requires a number of operating system routines I have used seperatly.  However, they will have to be modified to work within the GUI structure.
+     
+3. What do you plan to do this week?
+    - Finish the output tab and its routines
+    - Debug program to get this version reasonably stable (have been testing along the way)
+    - Start working on wrap up of project
+  
+5. Are there any impediments in your way?
+   - No (maybe a camping trip?) 
+     
+6. What were the processes you used last week; how can you make the process work better?
+   - This week was all about reusing the previous materials (objects) I created earlier, so the effort of getting those in a stable working environment has been paying off
+   - I took some risks investing in the basic tab and data objects and getting them general enough that they could be reused with small modifications and all the data could be quickly and efficently saved.  That has paid off well.
+   - I am now looking at the objects and their use and I can see some redundancy in how the code is now fleshing out.   I have convinced myself, some redundancy is OK and can be cleaned up latter with some refactoring of the code.  There is a time to build and invest and then their is a time for things to develop in the context of use and learning. I'm happy where the code is at, more improvements will always be possible. 
 
