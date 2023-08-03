@@ -100,7 +100,7 @@ No reporting required
     - Integrating the data model will require careful placement within the interface to leverage object inheritance and reduce duplication and unneeded read and writes.  
 3. Are there any impediments in your way?
       - Yes.  Experience with OOP, inheritance, signals, and slots.  It is one thing to study this material and understand how it is implemented, it is another thing to implement a structure which serves the purpose well.  I must dive in a try my best idea and see how it plays out (learn the pros and cons of my approach).
-5. What were the processes you used last week; how can you make the process work better?
+4.  What were the processes you used last week; how can you make the process work better?
    - The process has changed entirely.  I have gone from studying PyQt documentation to planning strategy around various programming structures to achieve my goals.  This is planning and implementation, so the processes are different.  I consider, look at existing code, and adapt as needed, while anticipating potential problems.
 
 ## Week 7
@@ -116,7 +116,7 @@ No reporting required
     - Develop an interface and code to "save" a new data object and retrieve it.
 3. Are there any impediments in your way?
       - No.  
-5. What were the processes you used last week; how can you make the process work better?
+4. What were the processes you used last week; how can you make the process work better?
    - I studied the code a great deal to figure out where to put the data object and how best to apply it before I started coding.
    - In the future I will create a sandbox to test ideas sooner, with less concern on getting it correct the first time, since I found I spent several hours simply studying the code and considering options.  While that worked, it seemed a bit time consuming.
 
@@ -128,12 +128,12 @@ No reporting required
    - Added a lot of setters and getters - read up on various methods of doing setters and getters in Python and all their pros and cons (hint, using a lot of properties and setters is not always the best if you intend on reusing a class with inheritance.
    - Most of all I tested methods for passing data to the "view" tabs and updating the user screens.  This project is a mix of data science and user interface (software engineering).  These methods will be used to support the next round of development (saving and retrieving user data schemas).
    
-3. What do you plan to do this week?
+2. What do you plan to do this week?
    -Develop the saving and retrievalof user data schemas.  Had hoped to have done that last week, but I had to explore how best to do this first.  Now I know the method I plan to use, 
-4. Are there any impediments in your way?
+3. Are there any impediments in your way?
    -Main challenge has been integrating the GUI code with the data objects I have created to save and retrieve data.  I have good ideas and have made good progress on both the GUI code and the database object code.  However, integrating the two has been an unexpected challenge, requiring a much deeper understanding and planning with both to make them interact consistently for the user
      
-6. What were the processes you used last week; how can you make the process work better?
+4. What were the processes you used last week; how can you make the process work better?
    - before developing a bunch of setters and getters, I read up on the web about these in Python.  I could have done it without reading.  However, understanding how they work under the hood in Python was helpful, if only for future development.  As it turns out, setters and getters are rather static in Python as they relate to OOP inheritance - one can't morph the setters and getters as we do with other code using super().  That is an important restriction.
    - When I ran into the "big" challenge of integrating my data object with the GUI objects, I decided to perform some simple experiments with my code, before diving in with writing a lot of code.  I branched the code to create a sandbox.  I then picked some simple code areas and tried to pass the data along.  I had planned to use Python references to avoid duplication of data (passing by reference).  I had problems.  I then used the Python id() functions to see why the data were not being passed by reference.  Turns out, they were, as I had planned, however, this method did not trigger the "view" screens to update! Passing the data by value forced the view objects to update.  That was the desired outcome.  I could have come up with other methods to force an update of the view screen, but there are tradeoffs, not the least, the code would get very complicated.
    - This method of taking a small problem and working out the kinks was far superior then starting out with the big project.
@@ -149,14 +149,14 @@ No reporting required
    * Information on status (completion) of each task)
    * Learning OOP
    * Advanced Goal - Multithread 
-3.  Assessment
+2.  Assessment
    * Create GUI - Achieved this goal, making the GUI was mostly about reading documentation and books and trying it out.  Working with PyQt documentation was initially intimidating, since it is all organized by object trees and written for C++.  However, after a few weeks of referencing the documentation, I believe I have become proficient at finding what I need and implementing it.
    * Input from user and stored in MySQL - This was really two tasks.  Input from user done, with several customized features to facilitate data entry (painting value, spreadsheet like copy and paste via a customized delegate).  
-Dropped the MySQL idea. Upon considering the tasks of the GUI, I decided that using native Python data structures (lists and dictionaries) would be better suited to the application.  The data were better represented in an unstructured database.  Data are persisted in JSON format.
+Dropped the MySQL idea. Upon considering the tasks of the GUI, I decided that using native Python data structures (lists and dictionaries) wouldg be better suited to the application.  The data were better represented in an unstructured database.  Data are persisted in JSON format.
    * Progress bar for running programs-(TBD, have read up on the tools)
    * Learning OOP – I have read Part IV in Mark Lutz “Learning Python” on OOP.  OOP knowledge is essential for working with PyQt, which is based on object hierarchies.  Reading with an application in OOP has worked well for learning.
    * Advanced goal – I have read the chapters in PyQt on multithreaded applications.
-4.  Updated goals
+3.  Updated goals
    * Though this is midway through, I don’t feel ready to update goals.  I’m sure I don’t want to add any new goals to the list I have.  Looking at the progress I have made, in terms of the application interface, the interface is only about 25% done.  That is less than 50%.  However, my experience with this project is that developing an application is uneven in its progress.  Sometimes it moves fast, sometimes one must invest time to develop tools to be efficient.  I have built a lot of tools for my application.  I have nearly completed the most difficult parts of the application and created several objects which will be used with small modifications (inheritance and polymorphism) to complete the next 50% of the project. The next week of work will determine the status of the project and then I will adjust goals.
 
 # Professional Development Review
@@ -175,20 +175,20 @@ Finally, I signed up for, and watched, a video in the linked in learning area.  
    - Add an about screen to list credits and contact information
    - Watched Linked in Learning Video on OOP in Python
      
-3. What do you plan to do this week?
+2. What do you plan to do this week?
    - Develop new tab for regions (this should go fast and without trouble, since it will use all the objects already created and tested
    - Develop new tab for endowments (again, this should be straight forward extension of what has been done, though I will need to modify the tab a bit)
    - Start work on output programs (these should be familiar, since I already know how to write python scripts for file and program execution)
   
-5. Are there any impediments in your way?
+3. Are there any impediments in your way?
    - I feel comfortable with the state of the objects I have built, and hope things will move more quickly now that a solid foundation is set up.
      
-6. What were the processes you used last week; how can you make the process work better?
+4. What were the processes you used last week; how can you make the process work better?
    - As with the previous week, I reviewed materials on OOP to see if anything there could help (some did, but mostly in organization)
    - I branched a set of code to "play" and experiment with things, without fear of destroying previous work, to test ideas.
    - I could make these processes better by allowing more time to play and fully explore the ideas.  Sometimes I have the correct idea, but there is something in the implementation that keeps it from working the way I expect (i.e., passing values by assignment in Python).  I could, therefore, end up missing on a good idea and knowledge development for the wrong reasons.  Planning a solid exploration is better than quick code tests.
   
-7. Updated work plan to end of semester
+5. Updated work plan to end of semester
 	- Week 10 - Continue to develop tabs
 	- Week 11 - Finish output tab
 	- week 12 - Clean up code
@@ -200,15 +200,15 @@ Finally, I signed up for, and watched, a video in the linked in learning area.  
    - Built the endowments tab for user input - required a sub-class of the regions tab with a few modifications for the unique input of this data
    - Started work on output tab, which requires a number of operating system routines I have used separately.  However, they will have to be modified to work within the GUI structure.
      
-3. What do you plan to do this week?
+2. What do you plan to do this week?
     - Finish the output tab and its routines
     - Debug program to get this version reasonably stable (have been testing along the way)
     - Start working on wrap up of project
   
-5. Are there any impediments in your way?
+3. Are there any impediments in your way?
    - No (maybe a camping trip?) 
      
-6. What were the processes you used last week; how can you make the process work better?
+4. What were the processes you used last week; how can you make the process work better?
    - This week was all about reusing the previous materials (objects) I created earlier, so the effort of getting those in a stable working environment has been paying off
    - I took some risks investing in the basic tab and data objects and getting them general enough that they could be reused with small modifications and all the data could be quickly and efficiently saved.  That has paid off well.
    - I am now looking at the objects and their use and I can see some redundancy in how the code is now fleshing out.   I have convinced myself; some redundancy is OK and can be cleaned up later with some refactoring of the code.  There is a time to build and invest and then there is a time for things to develop in the context of use and learning. I'm happy where the code is at, more improvements will always be possible.
@@ -221,15 +221,15 @@ Finally, I signed up for, and watched, a video in the linked in learning area.  
    - Integrated a multithreaded procedure to run 8 programs at once
    - Developed a progress gauge for the output tab
      
-3. What do you plan to do this week?
+2. What do you plan to do this week?
    - wrap up the project to a finished state
    - write up accomplishments
    - work on GitHub settings and web page for the application
   
-5. Are there any impediments in your way?
+3. Are there any impediments in your way?
    - Using the GitHub interface is sometimes a mystery to me, I will have to find resources to guide me
      
-6. What were the processes you used last week; how can you make the process work better?
+4. What were the processes you used last week; how can you make the process work better?
    - I spent a lot of time debugging and working through code to find problems
    - I can make that process better by making sure I have a solid test case, with data and structures I know work, so I'm not debugging the code and the data at the same time.
 
