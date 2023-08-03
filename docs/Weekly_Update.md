@@ -165,7 +165,7 @@ As per the class assignment, I have investigated professional development tools 
 
 Finally, I signed up for, and watched, a video in the linked in learning area.  I watched a video on time management, as suggested.  The video reminded me of many tools I do use (I'm a focused person).  I want to watch some of the other videos on programming, will make the 30 minutes a week available as the time management video suggested.  Overall, a great review of lifelong learning tools.  It’s a reminder that at all stages of our work life and careers, we should make these regular habits since they enhance out self-worth in our work life.
 
-## 9 Week 
+## Week 9
 
 1. What did you do last week?
    - Continued to revise the data schema and data object for collecting, storing and saving user data in a consistent fashion
@@ -193,7 +193,7 @@ Finally, I signed up for, and watched, a video in the linked in learning area.  
 	- Week 11 - Finish output tab
 	- week 12 - Clean up code
 	- Week 13 – Document on GitHub, add video (?)
-## 10 Week 
+## Week 10
 
 1. What did you do last week?
    - Built regions tab for user input - based the tab off the sector tab
@@ -213,7 +213,7 @@ Finally, I signed up for, and watched, a video in the linked in learning area.  
    - I took some risks investing in the basic tab and data objects and getting them general enough that they could be reused with small modifications and all the data could be quickly and efficiently saved.  That has paid off well.
    - I am now looking at the objects and their use and I can see some redundancy in how the code is now fleshing out.   I have convinced myself; some redundancy is OK and can be cleaned up later with some refactoring of the code.  There is a time to build and invest and then there is a time for things to develop in the context of use and learning. I'm happy where the code is at, more improvements will always be possible.
 
-## 10 Week 
+## Week 11
 
 1. What did you do last week?
    - Finished the output tab
