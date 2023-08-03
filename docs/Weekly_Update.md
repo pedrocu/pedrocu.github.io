@@ -213,4 +213,24 @@ Finally, I signed up for, and watched, a video in the linked in learning area.  
    - I took some risks investing in the basic tab and data objects and getting them general enough that they could be reused with small modifications and all the data could be quickly and efficiently saved.  That has paid off well.
    - I am now looking at the objects and their use and I can see some redundancy in how the code is now fleshing out.   I have convinced myself; some redundancy is OK and can be cleaned up later with some refactoring of the code.  There is a time to build and invest and then there is a time for things to develop in the context of use and learning. I'm happy where the code is at, more improvements will always be possible.
 
+## 10 Week 
+
+1. What did you do last week?
+   - Finished the output tab
+   - Debugged the system by testing, testing, testing
+   - Integrated a multithreaded procedure to run 8 programs at once
+   - Developed a progress gauge for the output tab
+     
+3. What do you plan to do this week?
+   - wrap up the project to a finished state
+   - write up accomplishments
+   - work on GitHub settings and web page for the application
+  
+5. Are there any impediments in your way?
+   - Using the GitHub interface is sometimes a mystery to me, I will have to find resources to guide me
+     
+6. What were the processes you used last week; how can you make the process work better?
+   - I spent a lot of time debugging and working through code to find problems
+   - I can make that process better by making sure I have a solid test case, with data and structures I know work, so I'm not debugging the code and the data at the same time.
+
 
