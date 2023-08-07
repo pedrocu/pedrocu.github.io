@@ -12,7 +12,7 @@ Learned a bit about using windows registry to strore setting from one session to
 # Week 5
 ## First selection tab 
 This was alot more work than I had expected, but worth the late nights.  I expect the other tabs will go much faster now that the first template is done.
-I have put underlying data into the table using temporary tricks.  The next step is to develop a solid data model fit for this purpose, likely save to Json and manipulate in Python dics.
+I have put underlying data into the table using temporary tricks.  The next step is to develop a solid data model fit for this purpose, likely save to Json and manipulate in Python dictionary.
 
 ![Week-5](https://pedrocu.github.io/pics/Week5-image-1.JPG "Populated Sectors Tab")
 
@@ -41,4 +41,15 @@ And, for good measure, I added an about dialogue.
 This is what it is all heading to.  The real work.  Running the programs based on the user input.  
 
 First, the very basic tab - 
+
+![Week-11](https://pedrocu.github.io/pics/Week11image-1.JPG "Populated Output Tab")
+
+Now the progress bar - note, this is using multiple threads as multiple programs are running at the same time.  This was a bit tricky, since some routines had to be run after another had completed, though the whole lot of them are not serial.  
+
+![Week-11](https://pedrocu.github.io/pics/Week11image-2.JPG "Populated Status Bar Running programs")
+
+and it completes!
+
+
+![Week-11](https://pedrocu.github.io/pics/Week11image-3.JPG "Populated Status Bar Running programs")
 
