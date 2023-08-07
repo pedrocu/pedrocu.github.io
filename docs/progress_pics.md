@@ -19,7 +19,7 @@ I have put underlying data into the table using temporary tricks.  The next step
 # Week 10
 ## Long time working on the data structures
 
-Sorry not to post pictures for so long.  I was deep into the code, very little was getting done on the GUI, since I wanted to figure out a good way of keep the data in the tabs up to date and make it consistent and easy to "Save" the users work into a file.  I wound up using a JSON format to save and "Open" the data.  This required a lot of work on the basic "sectors" tab along with creating a data object and testing.  After that was done, the next two tabs were pretty stright forward, since I used OOP.
+Sorry not to post pictures for so long.  I was deep into the code, very little was getting done on the GUI, since I wanted to figure out a good way of keep the data in the tabs up to date and make it consistent and easy to "Save" the users work into a file.  I wound up using a JSON format to “Save” and "Open" the data.  This required a lot of work on the basic "sectors" tab along with creating a data object and testing.  After that was done, the next two tabs were straight forward, since I used OOP.
 
 ![Week-10](https://pedrocu.github.io/pics/Week10_image-1.JPG "Populated Regions Tab")
 
@@ -34,3 +34,11 @@ I won't post all my open and save screens, since I used the system GUI and we al
 And, for good measure, I added an about dialogue.
 
 ![Week-10](https://pedrocu.github.io/pics/Week10_image-2_5.JPG "Populated Open File Dialog")
+
+# Week 11
+## The output Tab
+
+This is what it is all heading to.  The real work.  Running the programs based on the user input.  
+
+First, the very basic tab - 
+
