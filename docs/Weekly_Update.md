@@ -222,9 +222,9 @@ Finally, I signed up for, and watched, a video in the linked in learning area.  
    - Developed a progress gauge for the output tab
      
 2. What do you plan to do this week?
-   - wrap up the project to a finished state
-   - write up accomplishments
-   - work on GitHub settings and web page for the application
+   - Wrap up the project to a finished state
+   - Write up accomplishments
+   - Work on GitHub settings and web page for the application
   
 3. Are there any impediments in your way?
    - Using the GitHub interface is sometimes a mystery to me, I will have to find resources to guide me
@@ -232,5 +232,29 @@ Finally, I signed up for, and watched, a video in the linked in learning area.  
 4. What were the processes you used last week; how can you make the process work better?
    - I spent a lot of time debugging and working through code to find problems
    - I can make that process better by making sure I have a solid test case, with data and structures I know work, so I'm not debugging the code and the data at the same time.
+
+
+## Week 12
+
+1. What did you do last week?
+   - Cleaned up a bit of code and pushed it to the GitHub repo
+   - Researched GitHub open-source repos and the common usages
+   	- Watched linked-in learning on setting up GitHub repo
+   	- Read several documents on managing pull requests
+   	- Read up on process of forking a repo (required for someone who wants to contribute)
+   	- Read up on setting to protect branches
+   - Set branch protections for main
+   - Deleted old branches
+   - Started an issue tracking log
+   - Updated project pictures on my wiki (https://github.com/pedrocu/pedrocu.github.io/blob/main/docs/progress_pics.md)
+2. What do you plan to do this week?
+   - Work on final project write up
+   - Develop readme.md file on GitHub for repo
+3. Are there any impediments in your way?
+   - No
+4. What were the processes you used last week; how can you make the process work better?
+   - Last week was a strategic dive into coding and getting the project working, that worked fine
+   - This week is a shift to the big picture, beyond the code, making sure GitHub is setup and that I understand how to work an open-source project.
+   - Also working on documentation of where I am at to continue work.
 
 
