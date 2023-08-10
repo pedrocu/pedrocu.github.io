@@ -38,7 +38,15 @@ Python, Windows, PyQT (GUI), harpy plugin for accessing Fortran datafiles via Nu
     *  Mitigation - This is an ADVANCED GOAL.  PyQT provides a threading object and queue, but with these applications, I suspect the order of program runs is still a problem to be solved by the programmer, so I will first program an asynchronous application in the AGILE spirt of getting it working first.
 
 ## Project Assessments
+* Create a GUI for running complex data tasks which aggregate large databases into smaller analytical ones.
+* The objective is not to create a final, polished product, but a working framework which can be improved and added onto in the future.
+* It should work, with limits (bugs), on achieving the goal of running several programs based on user input.
+* User inputs can be saved and opened for future use
+* A multi-threaded design will be a bonus goal, working several data sets at a time.
+
 ## Project Portfolio Link
+
+https://pedrocu.github.io/
 
 ## Task List and Schedule
 
