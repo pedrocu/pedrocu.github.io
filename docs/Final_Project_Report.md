@@ -1,0 +1,5 @@
+- discuss project (goals)
+- assessments, 
+- reflection on how to improve learning process for future professional development
+- where your skills were when started and where your skills are now
+- include information to remind yourself of what you accomplished and what was cool about the project
