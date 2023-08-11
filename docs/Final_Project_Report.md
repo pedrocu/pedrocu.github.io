@@ -27,3 +27,15 @@ standard Python data structures, such as dictionaries and lists and json.  A sig
 - In addition to targeting smaller learning goals over time, it helps to be strategic, planning and choosing one’s goals carefully to fit into one’s needs.
 - I found the LinkedIn learning modules helpful and plan to use them more often.
 
+# Link to Class Proposal and Weekly Journal
+
+https://pedrocu.github.io/
+
+# Link to Open Source Code Project
+
+https://github.com/pedrocu/PyGTAPAgg
+
+# Link to GUI Pictures
+
+https://pedrocu.github.io/docs/progress_pics.html
+
